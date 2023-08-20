@@ -1,0 +1,3 @@
+find / -name "*asd*" 2>/dev/null | ls -l | awk '{sum+=$} END {print sum}'
+
+ls -l  | find / -name "*asd*" 2>/dev/null
